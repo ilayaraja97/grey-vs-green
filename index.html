@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grey vs Green | Environmental Journalism</title>
+  <meta name="description"
+    content="A media platform dedicated to environmental protection, exposing corporate degradation, and advocating for a sustainable future.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <img src="https://static.wixstatic.com/media/47bab6_9188025a43e3442dbdc7de387ec78c0f~mv2.png"
+          alt="Grey vs Green Logo">
+        <span>Grey vs Green</span>
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <i class="ri-menu-4-line"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#interview">Interview</a></li>
+        <li><a href="#stories">Text Stories</a></li>
+        <li><a href="#voices">Voices of the Earth</a></li>
+        <li><a href="https://www.youtube.com/c/notjustbikes" target="_blank" class="btn-primary">Subscribe</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://static.wixstatic.com/media/47bab6_bf575b7678a44ea0bb2857cdc882d9c5~mv2.jpg"
+        alt="Nature vs Corporate Greed">
+      <div class="overlay"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="reveal-up">Nature's Voice Against <span>Corporate Greed</span></h1>
+      <p class="reveal-up delay-1">We are a media platform dedicated to environmental protection. Through investigative
+        journalism, multimedia narratives, and direct interviews, we expose the mechanisms of corporate degradation and
+        advocate for a sustainable future.</p>
+      <div class="hero-actions reveal-up delay-2">
+        <a href="#stories" class="btn-primary-large">Expose Truth <i class="ri-arrow-right-line"></i></a>
+        <a href="#interview" class="btn-secondary-large">Read Interviews</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+      <span>Scroll</span>
+    </div>
+  </header>
+
+  <!-- Interview Section -->
+  <section class="interview section-padding" id="interview">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2>Exclusive Interview</h2>
+        <p>Bell Farms & Resort - A journey towards sustainability goals.</p>
+      </div>
+
+      <div class="interview-grid">
+        <div class="interview-image reveal-up">
+          <img src="https://static.wixstatic.com/media/c163683e975c40d680bea2b6afa4b502.jpg"
+            alt="Lakeside Cottages at Bell Farm">
+          <div class="image-badge">
+            <img src="https://static.wixstatic.com/media/1fa1d6372cf8d61424f074adf0c18fc4.png" alt="Tree Logo"
+              width="40">
+            <div>
+              <strong>Dr. Sherimon P.C.</strong>
+              <span>Chairman, Bell Foods Group</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="interview-content reveal-up delay-1">
+          <h3>Balancing Hospitality & Biodiversity</h3>
+          <p class="subtitle">Companies should learn that protection of the environment should be its priority to reach
+            long term goals and the best way to do that is to work with it.</p>
+
+          <div class="accordion" id="interview-accordion">
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item active">
+              <button class="accordion-header">
+                1. Navigating Mangrove Responsibilities
+                <i class="ri-add-line icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p><strong>The resort is built within a mangrove forest on Munroe Island. How do you balance maintaining
+                    biodiversity?</strong></p>
+                <p>At Bell Farms & Resorts, sustainability is woven into our DNA. In Munroe Island's delicate mangrove
+                  ecosystem, we tread lightly—minimizing harm, restoring habitats, and innovating with eco-friendly
+                  designs like elevated walkways and stringent waste management. By collaborating with experts and
+                  locals, we're nurturing a thriving ecosystem that sets a new benchmark for responsible tourism.</p>
+              </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+              <button class="accordion-header">
+                2. Indigenous Farming Techniques
+                <i class="ri-add-line icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p><strong>Do you incorporate traditional farming techniques to keep the forest healthy?</strong></p>
+                <p>We blend traditional wisdom with modern techniques. This includes organic shrimp farming that mimics
+                  natural habitats, mangrove-friendly farming that enhances growth, and community-led conservation to
+                  project and restore forests.</p>
+              </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+              <button class="accordion-header">
+                3. Return of Wildlife
+                <i class="ri-add-line icon"></i>
+              </button>
+              <div class="accordion-body">
+                <p><strong>What species have returned to the area since farming operations began?</strong></p>
+                <p>We have observed an encouraging return of native wildlife. Bird species such as Kingfishers, Egrets,
+                  and Cormorants are now frequently spotted. Water snakes have returned, and native fish varieties like
+                  Pearl Spot and prawns have shown an increased presence, highlighting how eco-friendly farming restores
+                  ecosystems.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://bellfarms.in/" target="_blank" class="btn-text">Visit Bell Farms <i
+              class="ri-external-link-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Text Stories Section -->
+  <section class="stories section-padding" id="stories">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2>Impact Narratives</h2>
+        <p>Challenging ecological neglect and shedding light on urgent truths.</p>
+      </div>
+
+      <div class="stories-grid">
+
+        <!-- Story 1 -->
+        <article class="story-card reveal-up">
+          <div class="story-img">
+            <img src="https://static.wixstatic.com/media/489a2c8c728e4d4786747253c728fd65.jpg" alt="AI Impact">
+            <span class="category">Technology</span>
+          </div>
+          <div class="story-content">
+            <h3>Reality of AI and its Effects</h3>
+            <p>A typical data center uses 300,000 gallons of water each day. The energy demands of AI data centers
+              approach that of entire countries. We must use AI wisely.</p>
+            <button class="btn-text read-more-btn" data-modal="modal-ai">Read Full Story</button>
+          </div>
+        </article>
+
+        <!-- Story 2 -->
+        <article class="story-card reveal-up delay-1">
+          <div class="story-img">
+            <img
+              src="https://static.wixstatic.com/media/11062b_0434f91438d74c2bbabfb45246503216~mv2_d_5184_3456_s_4_2.jpg"
+              alt="Bee Population">
+            <span class="category">Ecosystem</span>
+          </div>
+          <div class="story-content">
+            <h3>Why Bees Are Indispensable</h3>
+            <p>One out of every three bites of food we eat is thanks to pollinators. Modern farming and deforestation
+              threaten to destroy the foundation of our food security.</p>
+            <button class="btn-text read-more-btn" data-modal="modal-bees">Read Full Story</button>
+          </div>
+        </article>
+
+        <!-- Story 3 -->
+        <article class="story-card reveal-up delay-2">
+          <div class="story-img">
+            <img src="https://static.wixstatic.com/media/47bab6_543f9c15a6084647add0c6ab79ea5a5d~mv2.png"
+              alt="Ethanol Dependency">
+            <span class="category">Energy</span>
+          </div>
+          <div class="story-content">
+            <h3>Ethanol: An Evil in Disguise</h3>
+            <p>Sugarcane for ethanol requires billions of liters of water. In a nation facing huge water stress,
+              crop-based fuel threatens our drinking water and food security.</p>
+            <button class="btn-text read-more-btn" data-modal="modal-ethanol">Read Full Story</button>
+          </div>
+        </article>
+
+        <!-- Story 4 -->
+        <article class="story-card reveal-up">
+          <div class="story-img">
+            <img src="https://static.wixstatic.com/media/47bab6_8a7c3b7294ed408ea734c63e39724b72f000.jpg"
+              alt="Skyscrapers vs Nature">
+            <span class="category">Urbanism</span>
+          </div>
+          <div class="story-content">
+            <h3>Skyscrapers and Sustainability</h3>
+            <p>Skyscrapers act as massive energy sinks. Green flats and vertical forests that maximize low-density
+              living offer a far more sustainable urban future.</p>
+            <button class="btn-text read-more-btn" data-modal="modal-skyscrapers">Read Full Story</button>
+          </div>
+        </article>
+
+        <!-- Story 5 -->
+        <article class="story-card reveal-up delay-1">
+          <div class="story-img">
+            <img src="https://static.wixstatic.com/media/11062b_24095eb285b9463d89099b1c33fe57ea~mv2.jpg"
+              alt="Rare Minerals">
+            <span class="category">Mining</span>
+          </div>
+          <div class="story-content">
+            <h3>The Death Race for Rare Minerals</h3>
+            <p>Electric vehicles trade oil reliance for rare earth mining. With 2,000 tons of toxic waste per ton of
+              metal, we need robust recycling and new technology.</p>
+            <button class="btn-text read-more-btn" data-modal="modal-minerals">Read Full Story</button>
+          </div>
+        </article>
+
+        <!-- Story 6 -->
+        <article class="story-card reveal-up delay-2">
+          <div class="story-img">
+            <img
+              src="https://static.wixstatic.com/media/11062b_196b871ff54846dba9312712f632647e~mv2_d_6016_4016_s_4_2.jpg"
+              alt="Quarrying">
+            <span class="category">Exploitation</span>
+          </div>
+          <div class="story-content">
+            <h3>Quarrying Should Stop</h3>
+            <p>Destroying mountains destabilizes soil leading to catastrophic floods and landslides. We must transition
+              to recycled green building materials.</p>
+            <button class="btn-text read-more-btn" data-modal="modal-quarrying">Read Full Story</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Voices of the Earth -->
+  <section class="voices section-padding" id="voices">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <h2>Voices of the Earth</h2>
+        <p>Real issues ignored by most, but of utmost significance.</p>
+      </div>
+
+      <div class="multimedia-container reveal-up">
+        <div class="video-card">
+          <div class="video-thumbnail"
+            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+            <video controls poster="https://static.wixstatic.com/media/47bab6_c5f34e2d22364656bb4c513644dbeb6ef002.jpg"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+              <source src="https://video.wixstatic.com/video/47bab6_c5f34e2d22364656bb4c513644dbeb6e/1080p/mp4/file.mp4"
+                type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video-info">
+            <h3>Traffic Congestion & Environment</h3>
+            <p>An overarching look into how daily habits destroy the atmosphere.</p>
+          </div>
+        </div>
+
+        <div class="podcast-list">
+          <h3>Podcasts & Audio Series</h3>
+          <a href="https://drive.google.com/file/d/1T5IHNbDy4rVNgHVThLb4nTk8PD2fEip5/view?usp=drivesdk" target="_blank"
+            class="podcast-item">
+            <div class="pod-icon"><i class="ri-mic-2-line"></i></div>
+            <div class="pod-text">
+              <h4>Narrative Podcast</h4>
+              <span>Listen Now</span>
+            </div>
+            <i class="ri-arrow-right-up-line"></i>
+          </a>
+          <a href="https://drive.google.com/file/d/1O_1NdRda_qgMt_i3sfS3ByuVo0hw1TlA/view?usp=drive_link"
+            target="_blank" class="podcast-item">
+            <div class="pod-icon"><i class="ri-mic-line"></i></div>
+            <div class="pod-text">
+              <h4>Podcast with Anjali</h4>
+              <span>Listen Now</span>
+            </div>
+            <i class="ri-arrow-right-up-line"></i>
+          </a>
+          <a href="https://drive.google.com/file/d/1W5NncN1Y_hdF3NQ6YlhLx2KPk-7SBcz5/view?usp=drive_link"
+            target="_blank" class="podcast-item">
+            <div class="pod-icon"><i class="ri-mic-line"></i></div>
+            <div class="pod-text">
+              <h4>Podcast with Sreya</h4>
+              <span>Listen Now</span>
+            </div>
+            <i class="ri-arrow-right-up-line"></i>
+          </a>
+          <a href="https://drive.google.com/file/d/1hY-KqIXiEc_djS_UNnuIIuklH1HrF3xJ/view?usp=drive_link"
+            target="_blank" class="podcast-item">
+            <div class="pod-icon"><i class="ri-headphone-line"></i></div>
+            <div class="pod-text">
+              <h4>Vox Pop</h4>
+              <span>Explore Audio</span>
+            </div>
+            <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#" class="logo">
+          <img src="https://static.wixstatic.com/media/47bab6_9188025a43e3442dbdc7de387ec78c0f~mv2.png"
+            alt="Grey vs Green">
+          <span>Grey vs Green</span>
+        </a>
+        <p>Advocating for the planet, holding corporate greed accountable. Truth over profit.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Grey vs Green. All rights reserved.</p>
+        <p>Curated by Devaaditya S | Reg: 25PMCJ20760</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modals -->
+  <!-- Modal 1: AI -->
+  <div class="modal" id="modal-ai">
+    <div class="modal-content">
+      <button class="close-modal"><i class="ri-close-line"></i></button>
+      <h2>Reality of AI and its Effects on the Environment</h2>
+      <img src="https://static.wixstatic.com/media/489a2c8c728e4d4786747253c728fd65.jpg" alt="AI">
+      <p>Artificial Intelligence (AI) has transformed everything in this world. It is not just a bubble in which
+        investors just invest till they find profit, no! People are seeing irreversible changes— marvelous and
+        horrifying. AI technology is a package; it is used for cancer and disease research while also being used for
+        fraud, blackmailing and privacy breaches. It also has another huge impact which everyone tends to conveniently
+        shove under the rug: the various environmental impacts of AI.</p>
+      <p>"A typical data center uses 300,000 gallons of water each day (equivalent to the demands of about 1,000
+        households), but large data centers can use an estimated 5 million gallons of water each day, equivalent to the
+        needs of a town of up to 50,000 residents" according to brookings.edu. The water is actually used to cool down
+        the data centers. We all know how important fresh water is and many countries and places don't even have fresh
+        water so it is highly unethical to use fresh water for data centers.</p>
+      <p>The energy demands of AI data centers approach 1,050 TWh by 2026. A single ChatGPT request requires ten times
+        more electricity than a Google search. Use AI wisely, avoid unnecessary prompts, and rely on standard efficiency
+        where possible.</p>
+    </div>
+  </div>
+
+  <!-- Modal 2: Bees -->
+  <div class="modal" id="modal-bees">
+    <div class="modal-content">
+      <button class="close-modal"><i class="ri-close-line"></i></button>
+      <h2>Why the Bee Population is Indispensable?</h2>
+      <img src="https://static.wixstatic.com/media/11062b_0434f91438d74c2bbabfb45246503216~mv2_d_5184_3456_s_4_2.jpg"
+        alt="Bees">
+      <p>Farming is an age-old process that started about 12,000 years ago during the Neolithic Revolution. The beauty
+        of farming is that it helped humans make food banks so that they can survive winters. But how is the bee
+        population connected?</p>
+      <p>Experts say that one out of every three bites of food we eat is thanks to pollinators like bees. They are
+        responsible for the fruits and vegetables that both animals and humans depend on. Without them, we would lose
+        favorite foods like apples, almonds, berries, and even coffee.</p>
+      <p>Despite their importance, the bee population is steadily declining. In some parts of the world, beekeepers have
+        seen their colonies drop by 30% to 40% each year due to poaching, sheer deforestation, and toxic modern
+        pesticides that confuse their internal navigation. If bees disappear, the cost of food will skyrocket and
+        famines could follow. We need to protect their natural habitats and reduce the use of harmful sprays.</p>
+    </div>
+  </div>
+
+  <!-- Modal 3: Ethanol -->
+  <div class="modal" id="modal-ethanol">
+    <div class="modal-content">
+      <button class="close-modal"><i class="ri-close-line"></i></button>
+      <h2>Ethanol, an Evil in Disguise for Thirsty India</h2>
+      <img src="https://static.wixstatic.com/media/47bab6_543f9c15a6084647add0c6ab79ea5a5d~mv2.png" alt="Ethanol Pump">
+      <p>India is highly dependent on oil imports. To solve this, the government is aggressively pushing ethanol
+        blending, up to E20 and planning for E85. Ethanol in India is primarily derived from water-intensive crops like
+        sugarcane.</p>
+      <p>At first glance, ethanol seems like a silver bullet. However, the problem stems from the fact that sugarcane
+        demands thousands of billions of liters of water. We are already failing to provide potable drinking water to
+        600 million citizens facing extreme water stress. Prioritizing fuel crops over human survival feels like a
+        repeat of colonial indigo farming.</p>
+      <p>Moreover, we are over-fertilizing our farmlands, draining subsidy funds (₹2.04 lakh crore expected), and
+        destroying soil quality. The solution? Investing in ethanol is dangerous for food security. Focusing on EVs,
+        public transport, solar energy, and reducing unnecessary vehicles is the true path forward.</p>
+    </div>
+  </div>
+
+  <!-- Modal 4: Skyscrapers -->
+  <div class="modal" id="modal-skyscrapers">
+    <div class="modal-content">
+      <button class="close-modal"><i class="ri-close-line"></i></button>
+      <h2>Are Tall Skyscrapers the Answer to Sustainability?</h2>
+      <img src="https://static.wixstatic.com/media/47bab6_8a7c3b7294ed408ea734c63e39724b72f000.jpg" alt="Skyscrapers">
+      <p>The human population is over 8 billion, causing a massive housing shortage. Low-density single-family homes
+        take up enormous land space and make sprawling infrastructure unaffordable and environmentally harmful.</p>
+      <p>Flats are highly efficient. They save space, centralize demand, and reduce urban sprawl. But what about
+        skyscrapers (buildings over 150m tall)? Skyscrapers are a different story. They contain massive amounts of empty
+        "spire" space just for vanity height, and their maintenance—like pumping water to top floors, massive HVAC
+        systems, trucks hauling waste—makes them wildly unsustainable energy sinks.</p>
+      <p>Instead of building glorified lightning rods that exploit cheap labor, the government should focus on creating
+        highly efficient green flats incorporating vertical forests, making cities genuinely breathable, affordable, and
+        sustainable.</p>
+    </div>
+  </div>
+
+  <!-- Modal 5: Minerals -->
+  <div class="modal" id="modal-minerals">
+    <div class="modal-content">
+      <button class="close-modal"><i class="ri-close-line"></i></button>
+      <h2>The Global Death Race for Rare Minerals</h2>
+      <img src="https://static.wixstatic.com/media/11062b_24095eb285b9463d89099b1c33fe57ea~mv2.jpg" alt="Solar Panels">
+      <p>The push for a green transition—EVs, solar panels, and wind turbines—has traded our dependence on oil for a new
+        reliance on rare earth minerals like Nickel, Cobalt, Lithium, and Silver. A single EV battery requires 8kg of
+        lithium, 35kg of nickel, and 14kg of cobalt.</p>
+      <p>These materials are often mined under horrific conditions, including child labor in places like the Democratic
+        Republic of Congo. Moreover, the environmental cost is staggering: mining just one ton of rare earth metals
+        produces about 2,000 tons of toxic waste. Deep-sea mining threatens to wipe out undiscovered species.</p>
+      <p>Currently, less than 5% of lithium-ion batteries are recycled. To achieve real sustainability, we must mandate
+        comprehensive recycling policies and fund research into alternative battery tech—like sodium-ion
+        batteries—before we destroy the planet to save it.</p>
+    </div>
+  </div>
+
+  <!-- Modal 6: Quarrying -->
+  <div class="modal" id="modal-quarrying">
+    <div class="modal-content">
+      <button class="close-modal"><i class="ri-close-line"></i></button>
+      <h2>Quarrying Should Stop But How?</h2>
+      <img src="https://static.wixstatic.com/media/11062b_196b871ff54846dba9312712f632647e~mv2_d_6016_4016_s_4_2.jpg"
+        alt="Quarrying Rocks">
+      <p>Quarrying strips mountains of M-Sand, granite, and limestone, turning green peaks into empty, broken land.
+        Taking out the foundations of these mountains removes vital support, leaving the remaining geography
+        fundamentally unstable.</p>
+      <p>Mountains do more than look pretty; they control the weather, trap rain clouds to feed groundwater networks,
+        and cool the surrounding environment with their thick forests. Ignoring these facts has deadly consequences.
+        Destabilized slopes and deforested hillsides have severely increased fatal landslides and devastating floods in
+        regions like the Western Ghats.</p>
+      <p>To survive the future, we must shift away from destructive extraction. We need to champion Green Building
+        methods, aggressively recycle demolition waste, and implement strict environmental protections before we
+        permanently lose the natural structures that sustain our water and air.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
